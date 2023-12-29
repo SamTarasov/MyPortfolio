@@ -1,0 +1,48 @@
+@media (hover: hover) {
+    .btn_about:hover {
+        background-color: #555555;
+    }      
+    .btn_copy_mail:hover {
+        background-color: #3e3e3e;
+    }
+    .review_btn_link:hover{
+        background-color: #555555;
+        border: 1px solid #555555;
+    }
+    .sem_social_link:hover{
+        background-color: #555555;
+    }
+    .sem_social_link_T:hover{
+        content: url(../img/TelegramW.svg);
+    }
+    .sem_social_link_I:hover{
+        content: url(../img/InstagramW.svg);
+    }
+    .sem_social_link_G:hover{
+        content: url(../img/GitHubW.svg);   
+    }
+    .sem_menu_link:hover{
+        color: #E0E0E0;
+        background-color: #353535;
+    }
+    .btn_copy:hover{
+        background-color: #555555;
+    }
+    .btn_call:hover{
+        background-color: #555555;
+    }
+    button:hover{
+        background-color: #01582e;
+    }
+    .inter_btn_link:hover{
+        background-color: #555555;
+        color: #0b0b0b;
+    }
+    }
+    input:focus, textarea:focus {
+        border: 1px solid #555555;
+        transition: all .5s ease-in-out;
+    }
+    
+    
+    
