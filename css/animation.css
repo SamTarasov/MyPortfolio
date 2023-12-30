@@ -38,6 +38,9 @@
         background-color: #555555;
         color: #0b0b0b;
     }
+    .project_item img:hover{
+        transform: scale(1.1);
+    }
     }
     input:focus, textarea:focus {
         border: 1px solid #555555;
