@@ -32,3 +32,26 @@ btnForCloseMenuMobile.addEventListener('click', function(e){
     menuMobile.style.display = 'none';
 })
 
+function copyEmail() {
+    let emailToCopy = "sema.masson@gmail.com";
+    let textArea = document.createElement("textarea");
+    textArea.value = emailToCopy;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+  }
+  
+
+  function btnCopy() {
+    const btnCopyMail = document.querySelector('.btn_copy_mail');
+    const copyImg = document.getElementById('copyImg');
+  
+    btnCopyMail.addEventListener('click', (e) => {
+      btnCopyMail.style.backgroundColor = '#143325';
+      btnCopyMail.innerHTML = '✅  Code copied';
+    });
+  }
+  
+  // Вызовем функцию после загрузки документа
+  document.addEventListener('DOMContentLoaded', btnCopy);
