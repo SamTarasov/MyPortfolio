@@ -1,138 +1,273 @@
 @media (min-width: 769px) and (max-width: 1024px) {
-    body{
-        grid-template-columns: 10% 90%;
-    }    
-    nav{
-        width: 6%;
-    }
-    header{
-        padding: 40% 0;
-    }
-    .sem_name{
-        display: none;
-    }
-    .sem_social{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        bottom: -50%;
-        left: 0;
-        right: 0;
-    }
-    .sem_social a{
-        margin-top: 1em;
-    }
-    .sem_img img{
-        width: 90%;
-    }
-    .sem_menu_link_text{
-        display: none;
-    }    
-    .sem_menu_link_img{
-        width: 50%;
-    }
-    .sem_menu_link{
-        justify-content: center;
-        margin-top: .5em;
-        padding: 15px 5px;
-    }
-    .sem_menu_list{
-        margin-top: 1em;
-        position: relative;
-        padding-bottom: 2em;
-    }
-    .sem_menu_list::before{
-        content: "";
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 20%;
-        width: 60%;
-        height: 100%;
-        border-bottom: 1px solid #353535;
-    }
-    .sem_theme img{
-        padding-top: 20vh;
-    }
-    }
-    
-    
-    
-    
-    @media (min-width: 321px) and (max-width: 768px) {
-    
-    body{
-        grid-template-columns: 1fr;
-    }
-    .container{
-        width: 100%;
-    }
-    nav{
-        position: static;
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }    
-    header{
-        padding: 3% 0;
-    }
-    .sem_social{
-        display: none;
-    }
-    .sem_menu_list{
-        display: none;
-    }
-    .sem_img{
-        display: block;
-    }
-    .sem_img img{
-        width: 40%;
-    }
-    .sem_theme{
-        margin: 0;
-        margin-left: auto;
-    
-    }
-    .sem_name{
-        padding: 0;
-        text-align: left;
-        margin-left: -80px;
-    }
-    .sem_btn_open_menu{
-        display: block;
-    }
-    .project_layout{
-        grid-template-columns: 1fr;
-        gap: 1%;
-    }
-    .project_item_text{
-        margin-top: 0;
-    }
-    .project_item_title{
-        padding: 3% 0 2% 0;
-    }
-    .review{
-        padding: 15% 0;
-    }
-    .review_layout{
-        grid-template-columns: 1fr;
-    }
-    .review_info_client img{
-        width: 10%;
-    }
-    main{
-        margin: 0 1em 1em 1em;
-    }
-    .review_item_grad{
-        display: none;
-    }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  body {
+    grid-template-columns: 10% 90%;
+  }
+  nav {
+    width: 6%;
+  }
+  header {
+    padding: 40% 0;
+  }
+  .sem_name {
+    display: none;
+  }
+  .sem_social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+  }
+  .sem_social a {
+    margin-top: 1em;
+  }
+  .sem_img img {
+    width: 90%;
+  }
+  .sem_menu_link_text {
+    display: none;
+  }
+  .sem_menu_link_img {
+    width: 50%;
+  }
+  .sem_menu_link {
+    justify-content: center;
+    margin-top: 0.5em;
+    padding: 15px 5px;
+  }
+  .sem_menu_list {
+    margin-top: 1em;
+    position: relative;
+    padding-bottom: 2em;
+  }
+  .sem_menu_list::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 20%;
+    width: 60%;
+    height: 100%;
+    border-bottom: 1px solid #353535;
+  }
+  .sem_theme img {
+    padding-top: 20vh;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    width: 100%;
+  }
+  nav {
+    position: static;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  header {
+    padding: 3% 0;
+  }
+  .sem_social {
+    display: none;
+  }
+  .sem_menu_list {
+    display: none;
+  }
+  .sem_img {
+    display: block;
+  }
+  .sem_img img {
+    width: 40%;
+  }
+  .sem_theme {
+    margin: 0;
+    margin-left: auto;
+  }
+  .sem_name {
+    padding: 0;
+    text-align: left;
+    margin-left: -80px;
+  }
+  .sem_btn_open_menu {
+    display: block;
+  }
+  .project_layout {
+    grid-template-columns: 1fr;
+    gap: 1%;
+  }
+  .project_item_text {
+    margin-top: 0;
+  }
+  .project_item_title {
+    padding: 3% 0 2% 0;
+  }
+  .review {
+    padding: 15% 0;
+  }
+  .review_layout {
+    grid-template-columns: 1fr;
+  }
+  .review_info_client img {
+    width: 10%;
+  }
+  main {
+    margin: 0 1em 1em 1em;
+  }
+  .review_item_grad {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    width: 100%;
+  }
+  nav {
+    position: static;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  header {
+    padding: 4% 2%;
+  }
+  .sem_social {
+    display: none;
+  }
+  .sem_menu_list {
+    display: none;
+  }
+  .sem_img {
+    display: block;
+  }
+  .sem_img img {
+    width: 40%;
+  }
+  .sem_theme {
+    margin: 0;
+    margin-left: auto;
+  }
+  .sem_name {
+    padding: 0;
+    text-align: left;
+    margin-left: -80px;
+  }
+  .sem_btn_open_menu {
+    display: block;
+  }
+  .project_layout {
+    grid-template-columns: 1fr;
+    gap: 1%;
+  }
+  .project_item_text {
+    margin-top: 0;
+  }
+  .project_item {
+    margin-top: 2em;
+  }
+  .project_item_title {
+    padding: 7% 0 5% 0;
+  }
+  .review {
+    margin-top: 5em;
+  }
+  .review_layout {
+    grid-template-columns: 1fr;
+  }
+  .review_info_client img {
+    width: 10%;
+  }
+  main {
+    margin: 0.5em 0.5em 1em 0.5em;
+  }
+  .review_item_grad {
+    display: none;
+  }
+
+
+  .greeting{
+    padding-top: 3%;
+}
+  .ready_for_work {
+    font-size: 10px;
+    padding: 5px 7px;
+  }
+  .ready_for_work img{
+    width: 4%;
+}
+.hello{
+    margin-top: 10%;
+}
+  .hello_title {
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
+  .hello_text{
+    font-weight: 400;
+}
+.place_author{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.overview_text{
+    font-weight: 400;
+    font-size: 16px;
+}
+.greeting_btns{
+    margin-top: 7%;
+}
+.greeting_btns{
+    gap: 2em;
+}
+.btn_about{
+    font-size: 16px;
+    padding: 15px;
+}
+.btn_copy_mail{
+    font-size: 12px;
+    padding: 15px;
+
+}
+.about_name{
+    font-size: 35px;
+}
+.about_profession{
+    margin-top: .5em;
+    font-size: 25px;
+    font-weight: 400;
+}
+.about_img{
+    display: none;
+}
+.about{
+    display: block;
+}
+
+.connect_mail_tel{
+    display: grid;
+    grid-gap: 7em;
+}
+.connect_info{
+    position: relative;
+}
+.connect_btns{
+    display: grid;
+    margin-top: 1em;
+}
+.btn_copy{
+    position: absolute;
+    bottom: 11em;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+}
+}
